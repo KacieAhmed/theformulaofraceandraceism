@@ -192,14 +192,22 @@ a:hover {
 }
 
 .box-shadow-full {
-  height: 200vh;
+  height: 70vh;
+  width: 55vh;
   padding: 3rem 1.25rem;
-  position: relative;
+  position:relative;
   background-image: url(../img/BookCover.jpg);
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  float: center;
+
+
+
+
+           left: 30%;
+
 
 
 }
@@ -812,7 +820,7 @@ flex-shrink: 0;
 
 .work-content .w-more .w-ctegory {
   text-decoration: none;
-  
+
   color: #0078ff;
 
 }
@@ -1286,8 +1294,8 @@ footer .credits a {
 }
 
 .about-mf{
-  margin-top: 70px;
-  margin-bottom: 150px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .about-mf h1{
@@ -1313,7 +1321,7 @@ padding-top: 50px;
 
 #page_2{
 
-  height: 80vh;
+  height: 50vh;
   background-color: #fff;
   padding-top: 50px;
   }
